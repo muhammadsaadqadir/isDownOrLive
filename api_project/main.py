@@ -24,7 +24,3 @@ async def check_website(url: str):
     else:
         # raise HTTPException(status_code=404, status=0)
         return {"status": 0}
-
-
-if __name__  == "__main__":
-    uvicorn.run(app)
