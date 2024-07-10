@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException, Depends
 import uvicorn
-from core.config import settings
+from config import settings
 import httpx
 
 
